@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="fc93ee8ecd3443e7847e547f20059608" Name="Diagram1" ZoomLevel="74">
+        <EntityTypeShape EntityType="RecruitifyModel.Busqueda_skill_mapping" Width="1.5" PointX="5.25" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="RecruitifyModel.Busquedas" Width="1.5" PointX="3" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RecruitifyModel.Candidato_skill_mapping" Width="1.5" PointX="8.25" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="RecruitifyModel.Candidatos" Width="1.5" PointX="3" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="RecruitifyModel.Entrevistas" Width="1.5" PointX="5.25" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="RecruitifyModel.Evaluaciones" Width="1.5" PointX="6" PointY="12.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RecruitifyModel.EvaluacionesPreguntas" Width="1.5" PointX="8.25" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RecruitifyModel.Preguntas" Width="1.5" PointX="6" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="RecruitifyModel.Recruiters" Width="1.5" PointX="3" PointY="12.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="RecruitifyModel.Roles" Width="1.5" PointX="0.75" PointY="13" IsExpanded="true" />
+        <EntityTypeShape EntityType="RecruitifyModel.Seniorities" Width="1.5" PointX="0.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RecruitifyModel.Skills" Width="1.5" PointX="3.75" PointY="1.75" IsExpanded="true" />
+        <AssociationConnector Association="RecruitifyModel.Busqueda" ManuallyRouted="false" />
+        <AssociationConnector Association="RecruitifyModel.Skill" ManuallyRouted="false" />
+        <AssociationConnector Association="RecruitifyModel.Busqueda_seniority" ManuallyRouted="false" />
+        <AssociationConnector Association="RecruitifyModel.FK_Entrevistas_Busquedas" ManuallyRouted="false" />
+        <AssociationConnector Association="RecruitifyModel.Csm_candidato" ManuallyRouted="false" />
+        <AssociationConnector Association="RecruitifyModel.Csm_skill" ManuallyRouted="false" />
+        <AssociationConnector Association="RecruitifyModel.Candidato_seniority" ManuallyRouted="false" />
+        <AssociationConnector Association="RecruitifyModel.FK_Entrevistas_Candidatos" ManuallyRouted="false" />
+        <AssociationConnector Association="RecruitifyModel.FK_Entrevistas_Evaluaciones" ManuallyRouted="false" />
+        <AssociationConnector Association="RecruitifyModel.FK_Entrevistas_Recruiters" ManuallyRouted="false" />
+        <AssociationConnector Association="RecruitifyModel.FK_EvaluacionesPreguntas_Evaluaciones" ManuallyRouted="false" />
+        <AssociationConnector Association="RecruitifyModel.FK_EvaluacionesPreguntas_Preguntas" ManuallyRouted="false" />
+        <AssociationConnector Association="RecruitifyModel.Pregunta_seniority" ManuallyRouted="false" />
+        <AssociationConnector Association="RecruitifyModel.Pregunta_skill" ManuallyRouted="false" />
+        <AssociationConnector Association="RecruitifyModel.Recruiter_rol" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
